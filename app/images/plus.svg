@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient x1="0.2622764" y1="0.8273336" x2="1.3191093" y2="-0.17137627" id="gradient_1">
+      <stop offset="0" stop-color="#E53656" />
+      <stop offset="1" stop-color="#6082D8" />
+    </linearGradient>
+  </defs>
+  <g id="Group" transform="translate(2 2)">
+    <path d="M18 9C18 13.9627 13.9627 18 9 18C4.03729 18 0 13.9627 0 9C0 4.03729 4.03729 0 9 0C13.9627 0 18 4.03729 18 9ZM16.8824 8.94118C16.8824 4.56188 13.3205 1 8.94118 1C4.56188 1 1 4.56188 1 8.94118C1 13.3205 4.56188 16.8824 8.94118 16.8824C13.3205 16.8824 16.8824 13.3205 16.8824 8.94118Z" id="Shape" fill="url(#gradient_1)" stroke="none" />
+    <path d="M0 0L1 0L1 10L0 10L0 0Z" transform="translate(8.5 4)" id="Rectangle-18" fill="url(#gradient_1)" fill-rule="evenodd" stroke="none" />
+    <path d="M0 0L1 0L1 10L0 10L0 0Z" transform="matrix(-4.371139E-08 1 -1 -4.371139E-08 14 8.5)" id="Rectangle-18-Copy" fill="url(#gradient_1)" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>
