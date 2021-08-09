@@ -1,12 +1,64 @@
-%geometria-500{
+$black-color: #000000;
+$white-color: #FFFFFF;
+$white-gray-color: #DADADA;
+$pink-color: #E07B8C;
+$sky-blue-color: #C5D5E6;
+$gray-blue-color: #8094B4;
+$sky-blue-color: #7BB8E0;
+$blue-color: #515572;
+
+%geometria-500 {
     font-family: 'Geometria', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
 }
 
-%bg-icon{
+%bg-icon {
     position: absolute;
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
     content: '';
+}
+
+%visibility-off {
+    opacity: 0;
+    visibility: hidden;
+}
+
+%visibility-on {
+    opacity: 1;
+    visibility: visible;
+}
+
+%focus-accent {
+    outline: transparent;
+    box-shadow: 0 0 0 2px $pink-color;
+}
+
+%x-mark {
+    height: 45px;
+    width: 45px;
+    background-image: url('../images/x-mark.svg');
+
+}
+
+%wrapper-default {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 600px;
+}
+
+%popup-aid-icon {
+    top: -30px;
+    left: -100px;
+    width: 80px;
+    height: 80px;
+}
+
+%aid-cards-btn-icon {
+    right: 0;
+    height: 30px;
+    width: 30px;
 }

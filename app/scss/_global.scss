@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 .sr-only {
     position: absolute;
     width: 1px;
@@ -10,9 +14,12 @@
     border: 0;
   }
 
-  .body{
+  body{
     font-size: 14px;
-    background-image: url('../images/bg.jpg');
+    line-height: 1.2;
+    color: $white-color;
+    background-color: $white-color;
+    @extend %geometria-500;
   }
 
   .container{

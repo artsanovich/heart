@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекти</title>
+    <link rel="icon" href="images/fav.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/fav.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header" id="header" style="background-color: #394C77;">
+        <div class="container">
+            <div class="search" id="search">
+                <form class="search__form">
+                    <label class="sr-only" for="search__input">Пошук</label>
+                    <input class="search__input" id="search__input" type="text" placeholder="Пошук" name="Пошук"
+                        autocomplete="off">
+                    <ul class="live-src" id="live-src">
+                        <li class="live-src__item">
+                            <span class="live-src__title">Проекти</span>
+                            <div class="live-src__subitem">
+                                <span class="live-src__subtitle">
+                                    Діти
+                                </span>
+                                <a class="live-src__link" href="#">
+                                    Для операції на сердце маленькому хлопчику,
+                                    необхідно зібрати гроші на ліки
+                                </a>
+                                <a class="live-src__link" href="#">
+                                    Збираємо гроші на лікування п’ятирічного Василя,
+                                    який став жертвою ДТП
+                                </a>
+                            </div>
+                            <div class="live-src__subitem">
+                                <span class="live-src__subtitle">
+                                    Війна
+                                </span>
+                                <a class="live-src__link" href="#">
+                                    Необхідно зібрати ліки для поранених
+                                    бійців із зони АТО
+                                </a>
+                            </div>
+                        </li>
+                        <li class="live-src__item">
+                            <span class="live-src__title">Архів</span>
+                            <div class="live-src__subitem">
+                                <span class="live-src__subtitle">
+                                    Діти
+                                </span>
+                                <a class="live-src__link" href="#">
+                                    Необхідно купити ліки для дитячого
+                                    будинку в місті Київ
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </form>
+                <a class="search__close" href="#header">
+                    <span class="sr-only">закрити</span>
+                </a>
+            </div>
+            <div class="header__wrapper">
+                <a class="logo" href="index.html">
+                    <img src="images/logo.svg" alt="logo">
+                </a>
+                <ul class="lang-menu">
+                    <li class="lang-menu__item">
+                        <button class="lang-menu__btn button lang-menu__btn--active" type="button" data-filter="a">
+                            укр
+                        </button>
+                    </li>
+                    <li class="lang-menu__item">
+                        <button class="lang-menu__btn button" type="button" data-filter="b">
+                            рус
+                        </button>
+                    </li>
+                    <li class="lang-menu__item">
+                        <button class="lang-menu__btn button" type="button" data-filter="c">
+                            en
+                        </button>
+                    </li>
+                </ul>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link menu__link--active" href="#">
+                                Проекти
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link menu__link--underline" href="#">
+                                Архів
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link menu__link--underline" href="#">
+                                Контакти
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link menu__link--accent" href="#">
+                                Термінова допомога
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <a class="header__link" href="#search"></a>
+                <ul class="verify-menu">
+                    <li class="verify-menu__item verify-menu__item--slash">
+                        <a class="verify-menu__link" href="#">Вхід</a>
+                    </li>
+                    <li class="verify-menu__item">
+                        <a class="verify-menu__link" href="#">Зареєструватися</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="projects" style="background: linear-gradient(-39deg, #4792E1, #4174B3, #363B5D);">
+            <div class="container">
+                <div class="popup-aid" id="popup-aid">
+                    <div class="container">
+                        <div class="popup-aid__wrapper">
+                            <div class="popup-aid__content">
+                                <a class="popup-aid__close" href="#header">
+                                    <span class="sr-only">закрити</span>
+                                </a>
+                                <h2 class="popup-aid__title">
+                                    Види допомоги
+                                </h2>
+                                <ul class="popup-aid__list">
+                                    <li class="popup-aid__item">
+                                        <a class="popup-aid__link popup-aid__link--first" href="#"></a>
+                                        <h3 class="popup-aid__subtitle">
+                                            Зробити
+                                        </h3>
+                                        <div class="popup-aid__text">
+                                            <p>
+                                                Натискайте цю кнопку,
+                                                якщо Ви хочете зробити,
+                                                наприклад: ремонт у
+                                                дитячому будинку,
+                                                складну операцію,
+                                                побудувати дитячий
+                                                майданчик або побудувати житло
+                                                для переселенців і тд.
+                                                Ця кнопка, для організацій, які можуть взяти на себе відповідальність за
+                                                увесь
+                                                проект.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="popup-aid__item">
+                                        <a class="popup-aid__link popup-aid__link--second" href="#"></a>
+                                        <h3 class="popup-aid__subtitle">
+                                            Фінансова
+                                            допомога
+                                        </h3>
+                                        <div class="popup-aid__text">
+                                            <p>
+                                                Перераховуйте гроші тим,
+                                                хто дійсно потребує цього.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="popup-aid__item">
+                                        <a class="popup-aid__link popup-aid__link--third" href="#"></a>
+                                        <h3 class="popup-aid__subtitle">
+                                            Матеріальна
+                                            допомога
+                                        </h3>
+                                        <div class="popup-aid__text">
+                                            <p>
+                                                Зберіть ліки, речі, їжу,
+                                                іграшки та інше, для тих,
+                                                кому це необхідно.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="popup-aid__item">
+                                        <a class="popup-aid__link popup-aid__link--four" href="#"></a>
+                                        <h3 class="popup-aid__subtitle">
+                                            Волонтерство
+                                        </h3>
+                                        <div class="popup-aid__text">
+                                            <p>
+                                                Допоможіть ділом або професійними навичками.
+                                                Підтримайте проекти своєю роботою.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects__wrapper">
+                    <ul class="projects__list">
+                        <li class="projects__item">
+                            <a class="projects__link" href="#">Війна</a>
+                        </li>
+                        <li class="projects__item">
+                            <a class="projects__link" href="#">Екологія</a>
+                        </li>
+                        <li class="projects__item">
+                            <a class="projects__link projects__link--active" href="#">Діти</a>
+                            <span class="projects__counter">24</span>
+                        </li>
+                        <li class="projects__item">
+                            <a class="projects__link" href="#">Освіта</a>
+                        </li>
+                    </ul>
+                    <div class="projects__aid">
+                        <a class="projects__popup-aid" href="#popup-aid">Види допомоги</a>
+                    </div>
+                    <ul class="aid-cards">
+                        <li class="aid-cards__item">
+                            <div class="aid-cards__preview">
+                                <a class="aid-cards__link" href="#">
+                                    <img class="aid-cards__img" src="images/projects-kids/1.jpg"
+                                        alt="необхідна допомога">
+                                </a>
+                            </div>
+                            <div class="aid-cards__details">
+                                <span class="aid-cards__date">
+                                    07.05.2017
+                                </span>
+                                <h2 class="aid-cards__title">
+                                    Необхідна допомога дитячому будинку
+                                </h2>
+                                <div class="aid-cards__descr">
+                                    <div class="aid-cards__text">
+                                        <p>
+                                            Перебуваючи у сиротинцях ці діти мають різного роду матеріальні та
+                                            нематеріальні
+                                            потреби, якими зазвичай ніхто не займається. Ті, хто має займатися
+                                            утриманням
+                                            дитячих
+                                            будинків, опікою над дітьми часто забувають про свій обов’язок або ж
+                                            отримують
+                                            недостатнє фінансування від держави. Тому вся надія цих діточок покладається
+                                            на
+                                            небайдужих людей, волонтерів, благодійні фонди.
+                                        </p>
+                                    </div>
+                                    <span class="aid-cards__donate">
+                                        Зібрано 10000 з 20000 UAH
+                                    </span>
+                                </div>
+                            </div>
+                            <ul class="aid-cards__list-btn">
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--first" href="#">
+                                        <span class="sr-only">
+                                            зробити
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--second" href="#">
+                                        <span class="sr-only">
+                                            допомогти фінансово
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--third" href="#">
+                                        <span class="sr-only">
+                                            допомогти матеріально
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--four" href="#">
+                                        <span class="sr-only">
+                                            волонтерство
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="aid-cards__item">
+                            <div class="aid-cards__preview">
+                                <a class="aid-cards__link" href="#">
+                                    <img class="aid-cards__img" src="images/projects-kids/2.jpg"
+                                        alt="необхідна допомога">
+                                </a>
+                            </div>
+                            <div class="aid-cards__details">
+                                <span class="aid-cards__date">
+                                    04.05.2017
+                                </span>
+                                <h2 class="aid-cards__title">
+                                    Операція дитині, яка постраждала в зоні АТО
+                                </h2>
+                                <div class="aid-cards__descr">
+                                    <div class="aid-cards__text">
+                                        <p>
+                                            Перебуваючи у сиротинцях ці діти мають різного роду матеріальні та
+                                            нематеріальні
+                                            потреби, якими зазвичай ніхто не займається. Ті, хто має займатися
+                                            утриманням
+                                            дитячих
+                                            будинків, опікою над дітьми часто забувають про свій обов’язок або ж
+                                            отримують
+                                            недостатнє фінансування від держави. Тому вся надія цих діточок покладається
+                                            на
+                                            небайдужих людей, волонтерів, благодійні фонди.
+                                        </p>
+                                    </div>
+                                    <span class="aid-cards__donate">
+                                        Зібрано 10000 з 20000 UAH
+                                    </span>
+                                </div>
+                            </div>
+                            <ul class="aid-cards__list-btn">
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--first" href="#">
+                                        <span class="sr-only">
+                                            зробити
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--second" href="#">
+                                        <span class="sr-only">
+                                            допомогти фінансово
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--third" href="#">
+                                        <span class="sr-only">
+                                            допомогти матеріально
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--four" href="#">
+                                        <span class="sr-only">
+                                            волонтерство
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="aid-cards__item">
+                            <div class="aid-cards__preview">
+                                <a class="aid-cards__link" href="#">
+                                    <img class="aid-cards__img" src="images/projects-kids/3.jpg"
+                                        alt="необхідна допомога">
+                                </a>
+                            </div>
+                            <div class="aid-cards__details">
+                                <span class="aid-cards__date">
+                                    03.05.2017
+                                </span>
+                                <h2 class="aid-cards__title">
+                                    Освітній загальний курс з основ WEB технологій
+                                </h2>
+                                <div class="aid-cards__descr">
+                                    <div class="aid-cards__text">
+                                        <p>
+                                            Перебуваючи у сиротинцях ці діти мають різного роду матеріальні та
+                                            нематеріальні
+                                            потреби, якими зазвичай ніхто не займається. Ті, хто має займатися
+                                            утриманням
+                                            дитячих
+                                            будинків, опікою над дітьми часто забувають про свій обов’язок або ж
+                                            отримують
+                                            недостатнє фінансування від держави. Тому вся надія цих діточок покладається
+                                            на
+                                            небайдужих людей, волонтерів, благодійні фонди.
+                                        </p>
+                                    </div>
+                                    <span class="aid-cards__donate">
+                                        Зібрано 10000 з 20000 UAH
+                                    </span>
+                                </div>
+                            </div>
+                            <ul class="aid-cards__list-btn">
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--first" href="#">
+                                        <span class="sr-only">
+                                            зробити
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--second" href="#">
+                                        <span class="sr-only">
+                                            допомогти фінансово
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--third" href="#">
+                                        <span class="sr-only">
+                                            допомогти матеріально
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--four" href="#">
+                                        <span class="sr-only">
+                                            волонтерство
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="aid-cards__item">
+                            <div class="aid-cards__preview">
+                                <a class="aid-cards__link" href="#">
+                                    <img class="aid-cards__img" src="images/projects-kids/4.jpg"
+                                        alt="необхідна допомога">
+                                </a>
+                            </div>
+                            <div class="aid-cards__details">
+                                <span class="aid-cards__date">
+                                    03.05.2017
+                                </span>
+                                <h2 class="aid-cards__title">
+                                    Будування дитячого майданчику у місті Київ
+                                </h2>
+                                <div class="aid-cards__descr">
+                                    <div class="aid-cards__text">
+                                        <p>
+                                            Перебуваючи у сиротинцях ці діти мають різного роду матеріальні та
+                                            нематеріальні
+                                            потреби, якими зазвичай ніхто не займається. Ті, хто має займатися
+                                            утриманням
+                                            дитячих
+                                            будинків, опікою над дітьми часто забувають про свій обов’язок або ж
+                                            отримують
+                                            недостатнє фінансування від держави. Тому вся надія цих діточок покладається
+                                            на
+                                            небайдужих людей, волонтерів, благодійні фонди.
+                                        </p>
+                                    </div>
+                                    <span class="aid-cards__donate">
+                                        Зібрано 10000 з 20000 UAH
+                                    </span>
+                                </div>
+                            </div>
+                            <ul class="aid-cards__list-btn">
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--first" href="#">
+                                        <span class="sr-only">
+                                            зробити
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--second" href="#">
+                                        <span class="sr-only">
+                                            допомогти фінансово
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--third" href="#">
+                                        <span class="sr-only">
+                                            допомогти матеріально
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--four" href="#">
+                                        <span class="sr-only">
+                                            волонтерство
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="aid-cards__item">
+                            <div class="aid-cards__preview">
+                                <a class="aid-cards__link" href="#">
+                                    <img class="aid-cards__img" src="images/projects-kids/5.jpg"
+                                        alt="необхідна допомога">
+                                </a>
+                            </div>
+                            <div class="aid-cards__details">
+                                <span class="aid-cards__date">
+                                    03.05.2017
+                                </span>
+                                <h2 class="aid-cards__title">
+                                    Необхідна допомога дитячому будинку
+                                </h2>
+                                <div class="aid-cards__descr">
+                                    <div class="aid-cards__text">
+                                        <p>
+                                            Перебуваючи у сиротинцях ці діти мають різного роду матеріальні та
+                                            нематеріальні
+                                            потреби, якими зазвичай ніхто не займається. Ті, хто має займатися
+                                            утриманням
+                                            дитячих
+                                            будинків, опікою над дітьми часто забувають про свій обов’язок або ж
+                                            отримують
+                                            недостатнє фінансування від держави. Тому вся надія цих діточок покладається
+                                            на
+                                            небайдужих людей, волонтерів, благодійні фонди.
+                                        </p>
+                                    </div>
+                                    <span class="aid-cards__donate">
+                                        Зібрано 10000 з 20000 UAH
+                                    </span>
+                                </div>
+                            </div>
+                            <ul class="aid-cards__list-btn">
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--first" href="#">
+                                        <span class="sr-only">
+                                            зробити
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--second" href="#">
+                                        <span class="sr-only">
+                                            допомогти фінансово
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--third" href="#">
+                                        <span class="sr-only">
+                                            допомогти матеріально
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="aid-cards__item-btn">
+                                    <a class="aid-cards__btn aid-cards__btn--four" href="#">
+                                        <span class="sr-only">
+                                            волонтерство
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__social" style="opacity: 0;">
+                    <span class="footer__text">
+                        Розповісти всім:
+                    </span>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a class="footer__link footer__link--twitter" href="#"></a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link footer__link--facebook" href="#"></a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link footer__link--vk" href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__chat">
+                    <button class="footer__btn button">
+                        <span class="sr-only">Зв'язатись з нами</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>

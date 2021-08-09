@@ -5,13 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Добре Серце</title>
+    <link rel="icon" href="images/fav.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/fav.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
+            <div class="search" id="search">
+                <form class="search__form">
+                    <label class="sr-only" for="search__input">Пошук</label>
+                    <input class="search__input" id="search__input" type="text" placeholder="Пошук" name="Пошук"
+                        autocomplete="off">
+                    <ul class="live-src" id="live-src">
+                        <li class="live-src__item">
+                            <span class="live-src__title">Проекти</span>
+                            <div class="live-src__subitem">
+                                <span class="live-src__subtitle">
+                                    Діти
+                                </span>
+                                <a class="live-src__link" href="#">
+                                    Для операції на сердце маленькому хлопчику,
+                                    необхідно зібрати гроші на ліки
+                                </a>
+                                <a class="live-src__link" href="#">
+                                    Збираємо гроші на лікування п’ятирічного Василя,
+                                    який став жертвою ДТП
+                                </a>
+                            </div>
+                            <div class="live-src__subitem">
+                                <span class="live-src__subtitle">
+                                    Війна
+                                </span>
+                                <a class="live-src__link" href="#">
+                                    Необхідно зібрати ліки для поранених
+                                    бійців із зони АТО
+                                </a>
+                            </div>
+                        </li>
+                        <li class="live-src__item">
+                            <span class="live-src__title">Архів</span>
+                            <div class="live-src__subitem">
+                                <span class="live-src__subtitle">
+                                    Діти
+                                </span>
+                                <a class="live-src__link" href="#">
+                                    Необхідно купити ліки для дитячого
+                                    будинку в місті Київ
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </form>
+                <a class="search__close" href="#header">
+                    <span class="sr-only">закрити</span>
+                </a>
+            </div>
             <div class="header__wrapper">
                 <a class="logo" href="#">
                     <img src="images/logo.svg" alt="logo">
@@ -36,7 +87,7 @@
                 <nav class="menu">
                     <ul class="menu__list">
                         <li class="menu__item">
-                            <a class="menu__link menu__link--underline" href="#">
+                            <a class="menu__link menu__link--underline" href="projects.html">
                                 Проекти
                             </a>
                         </li>
@@ -57,7 +108,7 @@
                         </li>
                     </ul>
                 </nav>
-                <button class="header__search button"></button>
+                <a class="header__link" href="#search"></a>
                 <ul class="verify-menu">
                     <li class="verify-menu__item verify-menu__item--slash">
                         <a class="verify-menu__link" href="#">Вхід</a>
@@ -91,7 +142,7 @@
                                     хто дійсно потребує допомоги
                                 </p>
                             </div>
-                            <a class="support__link support__link--help" href="#">
+                            <a class="support__link support__link--help" href="#popup-aid">
                                 Як Ви можете допомогти?
                             </a>
                             <button class="support__btn button">
@@ -111,6 +162,82 @@
                             </a>
                         </li>
                     </ul>
+                </div>
+            </div>
+            <div class="popup-aid" id="popup-aid">
+                <div class="container">
+                    <div class="popup-aid__wrapper">
+                        <div class="popup-aid__content">
+                            <a class="popup-aid__close" href="#header">
+                                <span class="sr-only">закрити</span>
+                            </a>
+                            <h2 class="popup-aid__title">
+                                Види допомоги
+                            </h2>
+                            <ul class="popup-aid__list">
+                                <li class="popup-aid__item">
+                                    <a class="popup-aid__link popup-aid__link--first" href="#"></a>
+                                    <h3 class="popup-aid__subtitle">
+                                        Зробити
+                                    </h3>
+                                    <div class="popup-aid__text">
+                                        <p>
+                                            Натискайте цю кнопку,
+                                            якщо Ви хочете зробити,
+                                            наприклад: ремонт у
+                                            дитячому будинку,
+                                            складну операцію,
+                                            побудувати дитячий
+                                            майданчик або побудувати житло
+                                            для переселенців і тд.
+                                            Ця кнопка, для організацій, які можуть взяти на себе відповідальність за
+                                            увесь
+                                            проект.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="popup-aid__item">
+                                    <a class="popup-aid__link popup-aid__link--second" href="#"></a>
+                                    <h3 class="popup-aid__subtitle">
+                                        Фінансова
+                                        допомога
+                                    </h3>
+                                    <div class="popup-aid__text">
+                                        <p>
+                                            Перераховуйте гроші тим,
+                                            хто дійсно потребує цього.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="popup-aid__item">
+                                    <a class="popup-aid__link popup-aid__link--third" href="#"></a>
+                                    <h3 class="popup-aid__subtitle">
+                                        Матеріальна
+                                        допомога
+                                    </h3>
+                                    <div class="popup-aid__text">
+                                        <p>
+                                            Зберіть ліки, речі, їжу,
+                                            іграшки та інше, для тих,
+                                            кому це необхідно.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="popup-aid__item">
+                                    <a class="popup-aid__link popup-aid__link--four" href="#"></a>
+                                    <h3 class="popup-aid__subtitle">
+                                        Волонтерство
+                                    </h3>
+                                    <div class="popup-aid__text">
+                                        <p>
+                                            Допоможіть ділом або професійними навичками.
+                                            Підтримайте проекти своєю роботою.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -136,7 +263,9 @@
                     </ul>
                 </div>
                 <div class="footer__chat">
-                    <button class="footer__btn button"></button>
+                    <button class="footer__btn button">
+                        <span class="sr-only">Зв'язатись з нами</span>
+                    </button>
                 </div>
             </div>
         </div>
