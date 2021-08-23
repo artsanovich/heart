@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти</title>
+    <link rel="icon" href="images/fav.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/fav.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="search" id="search">
+                <div class="search__wrapper">
+                    <label class="sr-only" for="search__input">Пошук</label>
+                    <input class="search__input" id="search__input" type="text" placeholder="Пошук" name="Пошук"
+                        autocomplete="off">
+                </div>
+                <a class="search__close" href="#header">
+                    <span class="sr-only">закрити</span>
+                </a>
+                <div class="live-src" id="live-src">
+                    <div class="live-src__item">
+                        <span class="live-src__title">Проекти</span>
+                        <div class="live-src__subitem">
+                            <span class="live-src__subtitle">
+                                Діти
+                            </span>
+                            <a class="live-src__link" href="#">
+                                Для операції на сердце маленькому хлопчику,
+                                необхідно зібрати гроші на ліки
+                            </a>
+                            <a class="live-src__link" href="#">
+                                Збираємо гроші на лікування п’ятирічного Василя,
+                                який став жертвою ДТП
+                            </a>
+                        </div>
+                        <div class="live-src__subitem">
+                            <span class="live-src__subtitle">
+                                Війна
+                            </span>
+                            <a class="live-src__link" href="#">
+                                Необхідно зібрати ліки для поранених
+                                бійців із зони АТО
+                            </a>
+                        </div>
+                    </div>
+                    <div class="live-src__item">
+                        <span class="live-src__title">Архів</span>
+                        <div class="live-src__subitem">
+                            <span class="live-src__subtitle">
+                                Діти
+                            </span>
+                            <a class="live-src__link" href="#">
+                                Необхідно купити ліки для дитячого
+                                будинку в місті Київ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__wrapper">
+                <a class="logo" href="index.html">
+                    <img src="images/logo.svg" alt="logo">
+                </a>
+                <div class="lang-menu">
+                    <div class="lang-menu__item">
+                        <button class="lang-menu__btn button lang-menu__btn--active" type="button" data-filter="a">
+                            укр
+                        </button>
+                    </div>
+                    <div class="lang-menu__item">
+                        <button class="lang-menu__btn button" type="button" data-filter="b">
+                            рус
+                        </button>
+                    </div>
+                    <div class="lang-menu__item">
+                        <button class="lang-menu__btn button" type="button" data-filter="c">
+                            en
+                        </button>
+                    </div>
+                </div>
+                <nav class="menu">
+                    <div class="menu__items">
+                        <div class="menu__item">
+                            <a class="menu__link menu__link--underline" href="projects.html">
+                                Проекти
+                            </a>
+                        </div>
+                        <div class="menu__item">
+                            <a class="menu__link menu__link--underline" href="archive.html">
+                                Архів
+                            </a>
+                        </div>
+                        <div class="menu__item">
+                            <a class="menu__link menu__link--active" href="#">
+                                Контакти
+                            </a>
+                        </div>
+                        <div class="menu__item">
+                            <a class="menu__link menu__link--accent" href="urgently.html">
+                                Термінова допомога
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+                <a class="header__link" href="#search"></a>
+                <div class="verify-menu">
+                    <div class="verify-menu__item verify-menu__item--slash">
+                        <a class="verify-menu__link" href="#">Вхід</a>
+                    </div>
+                    <div class="verify-menu__item">
+                        <a class="verify-menu__link" href="#">Зареєструватися</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="community" style="background: linear-gradient(-39deg, #4792E1, #4174B3, #363B5D);">
+            <div class="container">
+                <div class="community__wrapper">
+                    <h1 class="sr-only"></h1>
+                    <div class="community__contact">
+                        <a class="community__link" href="tel:+380777777777">+38 (077) 777 77 77</a>
+                        <a class="community__link" href="mailto:help@kindheart.ua">help@kindheart.ua</a>
+                    </div>
+                    <div class="community__consultation">
+                        <span class="community__text">
+                            Заповніть своє ім’я і контактні дані,
+                            і Вам нададуть консультацію по телефону
+                        </span>
+                        <form class="community__form" action="#">
+                            <div class="community__items">
+                                <div class="community__item">
+                                    <label class="sr-only" for="input-name">Введіть ім’я</label>
+                                    <input class="community__input" id="input-name" placeholder="Ім’я"
+                                        name="community-input" type="text" autocomplete="off">
+                                </div>
+                                <div class="community__item">
+                                    <label class="sr-only" for="input-tel">Введіть номер телефону</label>
+                                    <input class="community__input" id="input-tel" placeholder="Телефон"
+                                        name="community-input" type="text" autocomplete="off">
+                                </div>
+                                <div class="community__item">
+                                    <button class="community__btn button" type="submit">Відправити</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                    <div class="footer__items footer__items--center">
+                        <div class="footer__item">
+                            <a class="footer__link footer__link--twitter" href="#"></a>
+                        </div>
+                        <div class="footer__item">
+                            <a class="footer__link footer__link--facebook" href="#"></a>
+                        </div>
+                        <div class="footer__item">
+                            <a class="footer__link footer__link--vk" href="#"></a>
+                        </div>
+                    </div>
+                <div class="footer__chat">
+                    <button class="footer__btn footer__btn--purple button">
+                        <span class="sr-only">Зв'язатись з нами</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>

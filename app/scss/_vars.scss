@@ -3,13 +3,38 @@ $white-color: #FFFFFF;
 $white-gray-color: #DADADA;
 $pink-color: #E07B8C;
 $sky-blue-color: #C5D5E6;
-$gray-blue-color: #8094B4;
-$sky-blue-color: #7BB8E0;
+$gray-blue-color: #9ab2da;
 $blue-color: #515572;
+$saphire-color: #363B5D;
+
+%geometria-800 {
+    font-family: 'Geometria', sans-serif;
+    font-weight: 800;
+}
+
+%geometria-700 {
+    font-family: 'Geometria', sans-serif;
+    font-weight: 700;
+}
 
 %geometria-500 {
     font-family: 'Geometria', sans-serif;
     font-weight: 500;
+}
+
+%gilroy-800 {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 800;
+}
+
+%gilroy-700 {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+}
+
+%gilroy-300 {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 300;
 }
 
 %bg-icon {
@@ -30,14 +55,22 @@ $blue-color: #515572;
     visibility: visible;
 }
 
+%hover-accent{
+    color: $pink-color;
+}
+
+%hover-transform{
+    transform: translateY(-15%);
+}
+
 %focus-accent {
     outline: transparent;
     box-shadow: 0 0 0 2px $pink-color;
 }
 
 %x-mark {
-    height: 45px;
-    width: 45px;
+    height: 60px;
+    width: 60px;
     background-image: url('../images/x-mark.svg');
 
 }
@@ -51,7 +84,7 @@ $blue-color: #515572;
 }
 
 %popup-aid-icon {
-    top: -30px;
+    top: -25px;
     left: -100px;
     width: 80px;
     height: 80px;
@@ -61,4 +94,104 @@ $blue-color: #515572;
     right: 0;
     height: 30px;
     width: 30px;
+}
+
+%blur-bg {
+    background: rgba(197, 213, 230, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+%popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.6s;
+    z-index: 4;
+    @extend %blur-bg;
+    @extend %visibility-off;
+
+    &:target {
+        @extend %visibility-on;
+    }
+}
+
+%popup-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
+}
+
+%popup-content {
+    max-width: 1340px;
+    width: 100%;
+    position: relative;
+    padding: 45px 0 75px;
+    border-radius: 15px;
+    background-color: $white-color;
+}
+
+%popup-close {
+    top: -68px;
+    right: 0;
+    @extend %x-mark;
+    @extend %bg-icon;
+    &:focus {
+        @extend %focus-accent;
+    }
+}
+
+%popup-title {
+    text-align: center;
+    font-size: 64px;
+    color: $saphire-color;
+    @extend %geometria-800;
+}
+
+%card-label {
+    position: absolute;
+    @extend %geometria-500;
+}
+
+%card-input {
+    padding: 5px 5px;
+    font-size: 24px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #F3F7FA;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #c49ac2;
+    }
+
+    &:focus {
+        @extend %focus-accent;
+    }
+}
+
+%methods-label {
+    position: absolute;
+    top: -20px;
+    left: 5px;
+    color: #939AA3;
+    @extend %geometria-500;
+}
+
+%check-icon {
+    right: -20px;
+    top: 0;
+    height: 18px;
+    width: 18px;
+}
+
+%project-menu-hover {
+    color: $sky-blue-color;
+    font-size: 12px;
+    @extend %gilroy-300;
 }

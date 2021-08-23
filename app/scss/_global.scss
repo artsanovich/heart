@@ -1,44 +1,57 @@
-*{
+* {
   box-sizing: border-box;
 }
 
 .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.2;
+  color: $white-color;
+  background-color: $white-color;
+  @extend %geometria-800;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.button {
+  border: transparent;
+  background-color: transparent;
+  transition: color 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    color: #E07B8C;
   }
 
-  body{
-    font-size: 14px;
-    line-height: 1.2;
-    color: $white-color;
-    background-color: $white-color;
-    @extend %geometria-500;
+  &:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 2px #E07B8C;
   }
+}
 
-  .container{
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 30px;
-  }
-  
-  .button {
-    border: transparent;
-    background-color: transparent;
-    text-transform: uppercase;
-    transition: color 0.3s;
-    cursor: pointer;
-    &:hover{
-      color: #E07B8C;
-    }
-    &:focus{
-      outline: transparent;
-      box-shadow: 0 0 0 2px #E07B8C;
-    }
-  }
+.title {
+  font-size: 64px;
+  line-height: 1.3;
+  color: $white-color;
+  @extend %geometria-800;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
