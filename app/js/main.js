@@ -27,14 +27,19 @@ $('.donate__service-btn').on('click', function () {
   $(this).addClass('donate__service-btn--active')
 })
 
+$('.menu__btn').on('click', function(){
+  $('.menu__items').toggleClass('menu__items--active')
+})
+
 
 
 $('.donate__card-number').on('keyup change', function () {
-
   if ($(this).val().length > 3) {
     $(this).next().focus();
   }
 })
+
+
 
 
 document.addEventListener('DOMContentLoaded', () => {

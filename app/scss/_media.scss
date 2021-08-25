@@ -1,0 +1,1383 @@
+ @media (max-width: 1280px) {
+     .menu {
+         padding: 0 10px 0 40px;
+     }
+
+     .live-src {
+         &__title {
+             margin-right: 150px;
+         }
+
+         &__subitem {
+             max-width: 270px;
+         }
+     }
+
+     .popup-aid {
+         &__title {
+             margin-bottom: 100px;
+         }
+
+         &__items {
+             padding-left: 0;
+         }
+
+         &__link {
+             &--first {
+                 left: 32px;
+                 top: -80px;
+             }
+
+             &--second {
+                 left: 32px;
+                 top: -80px;
+             }
+
+             &--third {
+                 left: 32px;
+                 top: -80px;
+             }
+
+             &--four {
+                 left: 32px;
+                 top: -80px;
+             }
+         }
+
+         &__subtitle {
+             text-align: center;
+             margin-bottom: 23px;
+
+             &--margin {
+                 margin-bottom: 10px;
+             }
+         }
+
+         &__text {
+             text-align: center;
+         }
+     }
+
+     .popup-form {
+
+         &__inner {
+             padding: 60px 40px 0 40px;
+         }
+
+         &__tab {
+             left: calc(50% - 115px);
+
+             &--border {
+                 left: 50%;
+             }
+         }
+
+         &__input {
+             max-width: 190px;
+
+             &--whole {
+                 max-width: 400px;
+             }
+         }
+
+         &__label {
+             &--nearby {
+                 left: 210px;
+             }
+         }
+
+         &__link {
+             right: 125px;
+             top: -16px;
+         }
+     }
+
+     .donate {
+
+         &__items {
+             padding: 0 110px 0 0;
+         }
+
+         &__methods {
+             padding-bottom: 0;
+         }
+
+         &__services {
+             margin-right: 5px;
+         }
+     }
+
+     .projects {
+
+         &__menu {
+             padding-right: 10px;
+         }
+     }
+
+     .aid-cards {
+         padding: 0 40px;
+
+         &__text {
+             margin-right: 20px;
+         }
+     }
+
+     .projects__link--active+.projects__counter {
+         display: none;
+     }
+ }
+
+ @media (max-width: 990px) {
+     .container {
+         padding: 0 20px;
+     }
+
+     .header {
+         padding: 15px 0;
+         backdrop-filter: blur(7px);
+     }
+
+     .menu {
+         padding: 0px;
+
+         &__item {
+             &:not(:last-child) {
+                 margin-right: 15px;
+             }
+         }
+     }
+
+     .lang-menu {
+         flex-direction: column;
+
+         &__item {
+             &:not(:last-child) {
+                 margin: 0 0 5px 0;
+             }
+         }
+     }
+
+     .search {
+         padding-right: 40px;
+
+         &__input {
+             font-size: 36px;
+         }
+
+         &__close {
+             top: 0;
+         }
+     }
+
+     .live-src {
+         &__title {
+             margin-right: 120px;
+         }
+
+         &__subitem {
+             max-width: 220px;
+             padding-bottom: 20px;
+
+             &:not(:last-child) {
+                 margin-right: 50px;
+             }
+         }
+     }
+
+     .support {
+         &__link {
+             &--details {
+                 display: block;
+                 top: 90px;
+             }
+
+             &--help {
+                 margin-right: 70px;
+             }
+         }
+     }
+
+     .popup-aid {
+         &__title {
+             font-size: 56px;
+         }
+
+         &__content {
+             padding: 50px 15px;
+         }
+     }
+
+     .popup-form {
+
+         &__wrapper {
+             padding: 80px 0;
+         }
+
+         &__content {
+             padding: 30px 0 45px;
+         }
+
+         &__inner {
+             padding: 60px 20px 0 20px;
+         }
+
+         &__tab {
+             top: 125px;
+         }
+
+         &__input {
+             max-width: 160px;
+
+             &--whole {
+                 max-width: 340px;
+             }
+
+             &--half {
+                 margin-right: 10px;
+             }
+         }
+
+         &__label {
+             font-size: 12px;
+
+             &--nearby {
+                 left: 170px;
+             }
+         }
+
+         &__link {
+             right: 60px;
+         }
+     }
+
+     .donate {
+
+         &__items {
+             justify-content: space-around;
+             padding: 0;
+         }
+
+         &__text {
+             display: none;
+         }
+
+         &__methods {
+             padding: 40px 15px 0;
+         }
+
+         &__services {
+             margin: 0;
+         }
+
+         &__service {
+             margin: 0 5px 10px;
+         }
+
+         &__service-btn {
+             width: 140px;
+
+             &--visa {
+                 &::after {
+                     left: 15px;
+                 }
+             }
+
+             &--privatbank {
+                 &::after {
+                     left: 20px;
+                 }
+             }
+
+             &--terminal {
+                 &::after {
+                     left: 60px;
+                 }
+             }
+
+             &--webmoney {
+                 &::after {
+                     left: 22px;
+                     top: 20px;
+                 }
+             }
+
+             &--paypal {
+                 &::after {
+                     left: 60px;
+                 }
+             }
+
+             &--bank {
+                 &::after {
+                     left: 55px;
+                 }
+             }
+         }
+
+         &__service-text {
+             font-size: 12px;
+         }
+
+         &__card-form {
+             max-height: 182px;
+             padding: 30px 15px 0;
+         }
+
+         &__card-number-label {
+             top: 13px;
+         }
+     }
+
+     .projects {
+         padding: 140px 0;
+
+         &__link {
+             font-size: 48px;
+         }
+
+         &__menu {
+             margin-bottom: 10px;
+         }
+
+         &__menu-items {
+             right: -10px;
+             max-width: 135px;
+         }
+
+         &__menu-item {
+             padding: 10px 12px;
+
+             &--size {
+                 padding: 3px 12px;
+             }
+         }
+
+         &__menu-submit {
+             padding: 7px 27px;
+         }
+     }
+
+     .aid-cards {
+
+
+         &__details {
+             margin-right: 10px;
+             padding: 5px 0;
+         }
+
+         &__preview {
+             margin-right: 20px;
+         }
+
+         &__date {
+             margin-bottom: 10px;
+         }
+
+         &__title {
+             max-height: 2.3em;
+             font-size: 16px;
+         }
+
+         &__text {
+             margin-bottom: 5px;
+             height: 8.1em;
+             font-size: 12px;
+         }
+
+         &__list-btn {
+             max-width: 150px;
+         }
+
+         &__btn {
+
+             &:hover {
+                 transform: translateY(-10%);
+             }
+
+             &:hover::after {
+                 content: '';
+             }
+
+             &:hover::before {
+                 content: '';
+             }
+         }
+     }
+
+
+     .footer {
+
+         &__wrapper {
+             justify-content: flex-end;
+             padding-left: 15px;
+
+             &--hidden {
+                 justify-content: unset;
+             }
+         }
+
+         &__items {
+             &--center {
+                 padding: 0 0 10px 0;
+                 margin: 0 auto 0 0;
+             }
+         }
+
+         &__text {
+             display: none;
+         }
+
+         &__link {
+             &--twitter {
+                 top: 1px;
+                 right: -17px;
+             }
+
+             &--facebook {
+                 right: -45px;
+             }
+
+             &--vk {
+                 top: 1px;
+                 right: -88px;
+             }
+         }
+
+         &__btn {
+             top: -70px;
+         }
+     }
+ }
+
+ @media (max-width: 768px) {
+
+     .title {
+         font-size: 52px;
+     }
+
+     .header {
+         background-color: #363C5E;
+     }
+
+     .lang-menu {
+         flex-direction: row;
+
+         &__item {
+             &:not(:last-child) {
+                 margin: 0 10px 0 0;
+             }
+         }
+     }
+
+     .menu {
+
+         display: flex;
+         justify-content: center;
+         padding: 0 20px;
+
+         &__button {
+             position: absolute;
+             width: 40px;
+             height: 40px;
+             left: calc(50% - 20px);
+             top: 14px;
+         }
+
+         &__items {
+             position: absolute;
+             flex-direction: column;
+             align-items: center;
+             width: 100%;
+             top: 70px;
+             left: 0;
+             transform: translateY(-200%);
+             transition: all 0.5s;
+             background-color: #363C5E;
+             opacity: 0;
+
+             &--active {
+                 transform: translateY(-5%);
+                 opacity: 1;
+                 transition: all 0.5s;
+             }
+         }
+
+         &__item {
+             width: 100%;
+             padding: 0 20px;
+             text-align: center;
+
+             &:not(:last-child) {
+                 margin: 0 0 10px 0;
+             }
+         }
+
+         &__link {
+             display: block;
+
+             &--active {
+                 border-bottom: none;
+             }
+         }
+
+         &__btn {
+             display: block;
+
+         }
+     }
+
+     .verify-menu {
+         flex-direction: column;
+
+         &__item {
+             text-align: center;
+
+             &:not(:last-child) {
+                 margin: 0 0 5px 0;
+             }
+
+             &--slash {
+                 &::after {
+                     left: 40px;
+                 }
+             }
+         }
+     }
+
+     .search {
+         &__input {
+             padding: 12px 60px 12px 20px;
+             font-size: 24px;
+             margin-right: 10px;
+         }
+
+         &__close {
+             top: -1px;
+             right: 63px;
+         }
+     }
+
+     .live-src {
+         padding: 20px 10px;
+
+         &__item {
+             &:not(:last-child) {
+                 margin-bottom: 20px;
+             }
+         }
+
+         &__title {
+             max-width: 70px;
+             padding-left: 0;
+             margin-right: 40px;
+             font-size: 18px;
+         }
+
+         &__subtitle {
+             font-size: 16px;
+         }
+
+         &__subitem {
+             max-width: 170px;
+
+             &:not(:last-child) {
+                 margin-right: 20px;
+             }
+         }
+
+         &__link {
+             text-overflow: ellipsis;
+             overflow: hidden;
+             max-height: 2.2em;
+             font-size: 12px;
+         }
+     }
+
+     .support {
+
+         &__wrapper {
+             padding-left: 15px;
+         }
+
+         &__item {
+             &:not(:last-child) {
+                 margin-bottom: 50px;
+             }
+         }
+
+         &__text {
+             font-size: 16px;
+         }
+
+         &__link {
+             font-size: 16px;
+
+             &::after {
+                 top: 1px;
+             }
+
+             &--help {
+                 margin: 0 0 30px 0;
+             }
+         }
+
+         &__popup-link {
+             display: block;
+             max-width: 200px;
+             padding: 8px 12px;
+             font-size: 16px;
+             border-radius: 8px;
+         }
+     }
+
+     .popup-aid {
+
+         &__wrapper {
+             padding: 70px 0;
+         }
+
+         &__close {
+             top: -60px;
+         }
+
+         &__title {
+             font-size: 36px;
+         }
+
+         &__content {
+             padding: 20px 5px;
+         }
+
+         &__item {
+             width: 100px;
+         }
+
+         &__subtitle {
+             font-size: 12px;
+             margin-bottom: 12px;
+
+             &--margin {
+                 margin-bottom: 5px;
+             }
+
+         }
+
+         &__text {
+             font-size: 10px;
+             text-overflow: ellipsis;
+             overflow: hidden;
+             max-height: 15em;
+         }
+
+         &__link {
+             &--first {
+                 left: 12px;
+                 top: -80px;
+             }
+
+             &--second {
+                 left: 12px;
+                 top: -80px;
+             }
+
+             &--third {
+                 left: 12px;
+                 top: -80px;
+             }
+
+             &--four {
+                 left: 12px;
+                 top: -80px;
+             }
+         }
+     }
+
+     .popup-form {
+
+         &__wrapper {
+             padding: 70px 0;
+         }
+
+         &__inner {
+             padding: 60px 0 20px;
+         }
+
+         &__close {
+             top: -60px;
+         }
+
+         &__content {
+             padding: 20px 15px;
+         }
+
+         &__title {
+             font-size: 36px;
+             margin-bottom: 30px;
+         }
+
+
+         &__tab {
+             top: 80px;
+             padding: 5px 15px;
+             left: calc(50% - 107px);
+
+             &--border {
+                 left: 50%;
+             }
+         }
+
+         &__form {
+             flex-direction: column;
+             align-items: center;
+
+             &:last-child {
+                 padding-top: 50px;
+             }
+         }
+
+         &__items {
+             &:not(:last-child) {
+                 margin-bottom: 30px;
+             }
+         }
+
+         &__item {
+             &:not(:last-child) {
+                 margin-bottom: 30px;
+             }
+         }
+
+         &__input {
+             max-width: 170px;
+
+             &--whole {
+                 max-width: 350px;
+             }
+
+             &--half {
+                 margin-right: 10px;
+             }
+         }
+
+         &__label {
+             font-size: 12px;
+
+             &--nearby {
+                 left: 180px;
+             }
+         }
+
+         &__link {
+             right: 95px;
+         }
+     }
+
+     .donate {
+         padding-top: 50px;
+
+         &__title {
+             font-size: 36px;
+         }
+
+         &__subtitle {
+             font-size: 16px;
+         }
+
+         &__methods {
+             flex-direction: column;
+             padding: 30px 10px 10px;
+             margin-bottom: 0;
+         }
+
+         &__services {
+             max-width: 500px;
+             margin-bottom: 20px;
+         }
+
+         &__card-form {
+             max-width: 290px;
+             border-radius: 10px;
+             padding: 20px 10px 15px;
+             margin-left: 5px;
+         }
+
+         &__card-numbers {
+             justify-content: space-between;
+         }
+
+         &__card-number {
+             max-width: 60px;
+             padding: 5px 2px;
+             font-size: 20px;
+         }
+
+         &__exp {
+             width: 100px;
+             padding: 5px 2px;
+             font-size: 20px;
+         }
+
+         &__cvv {
+             width: 100px;
+             padding: 5px 2px;
+             font-size: 20px;
+         }
+
+         &__card-number-label {
+             font-size: 12px;
+             top: 5px;
+         }
+
+         &__card-exp-label {
+             top: -15px;
+             font-size: 12px;
+         }
+
+         &__card-cvv-label {
+             top: -15px;
+             right: 43px;
+             font-size: 12px;
+         }
+     }
+
+     .projects {
+         &__link {
+             font-size: 28px;
+         }
+
+         &__menu {
+             margin-bottom: 30px;
+         }
+     }
+
+     .aid-cards {
+         padding: 0;
+
+         &__preview {
+             margin-right: 0;
+         }
+
+         &__item {
+             position: relative;
+             flex-direction: column;
+         }
+
+         &__link {
+             width: 400px;
+             height: 100px;
+         }
+
+         &__details {
+             padding-left: 5px;
+             opacity: 0;
+             visibility: hidden;
+         }
+
+         &__date {
+             margin-bottom: 5px;
+             font-size: 10px;
+         }
+
+         &__title {
+             max-width: 400px;
+             margin-bottom: 5px;
+             font-size: 14px;
+         }
+
+         &__text {
+             height: 3.8em;
+             font-size: 10px;
+         }
+
+         &__donate {
+             display: none;
+         }
+
+         &__list-btn {
+             position: absolute;
+             max-width: unset;
+             bottom: 33px;
+             left: 5px;
+         }
+
+         &__btn {
+             &:hover {
+                 transform: translateX(10%);
+             }
+
+             &--first {
+                 top: 0;
+                 left: 0;
+             }
+
+             &--first-blue {
+                 left: 0;
+                 top: 0;
+             }
+
+             &--second {
+                 top: 0;
+                 left: 40px;
+             }
+
+             &--second-blue {
+                 top: 0;
+                 left: 40px;
+             }
+
+             &--second-position {
+                 left: 0;
+             }
+
+             &--third {
+                 top: 0;
+                 left: 80px;
+             }
+
+             &--third-position {
+                 left: 40px;
+             }
+
+             &--four {
+                 top: 0;
+                 left: 120px;
+             }
+         }
+     }
+
+     .aid-cards__item:hover .aid-cards__link {
+         height: 70px;
+     }
+
+     .aid-cards__item:hover .aid-cards__details {
+         opacity: 1;
+         visibility: visible;
+     }
+
+     .community {
+
+         &__contact {
+             margin-bottom: 60px;
+         }
+
+         &__link {
+             font-size: 38px;
+         }
+
+         &__text {
+             max-width: 400px;
+             font-size: 16px;
+         }
+
+         &__items {
+             flex-direction: column;
+         }
+
+         &__item {
+
+             &:not(:last-child) {
+                 margin: 0 0 10px;
+             }
+         }
+     }
+
+     .footer {
+
+         &__btn {
+             &--position {
+                 top: -40px;
+             }
+         }
+     }
+ }
+
+
+ @media (max-width: 414px) {
+     .title {
+         font-size: 36px;
+     }
+
+     .container {
+         padding: 0 10px;
+     }
+
+     .header {
+         padding: 10px 0;
+
+         &__link {
+             display: none;
+         }
+     }
+
+     .lang-menu {
+         flex-direction: column;
+
+         &__item {
+             &:not(:last-child) {
+                 margin: 0 0 5px 0;
+             }
+         }
+     }
+
+     .verify-menu {
+         padding-bottom: 10px;
+     }
+
+     .support {
+         &__project {
+             margin-bottom: 60px;
+         }
+
+         &__item {
+             &:not(:last-child) {
+                 margin-bottom: 40px;
+             }
+         }
+
+         &__link {
+             font-size: 14px;
+
+             &::after {
+                 top: -2px;
+             }
+
+             &--details {
+                 display: block;
+                 top: 55px;
+             }
+
+             &--help {
+                 margin: 0 0 20px 0;
+             }
+         }
+
+         &__text {
+             font-size: 14px;
+         }
+     }
+
+     .popup-aid {
+
+         &__wrapper {
+             padding: 55px 0;
+         }
+
+         &__content {
+             padding: 10px;
+         }
+
+         &__close {
+             top: -55px;
+         }
+
+         &__title {
+             font-size: 32px;
+             margin-bottom: 20px;
+         }
+
+         &__items {
+             flex-direction: column;
+         }
+
+         &__item {
+             display: flex;
+             justify-content: space-between;
+             max-width: 350px;
+             width: 100%;
+             min-height: 100px;
+
+             &:not(:last-child) {
+                 margin-bottom: 20px;
+             }
+
+             &--padding {
+                 padding: 0;
+             }
+         }
+
+         &__subtitle {
+             margin: auto 0 0 0;
+             text-align: left;
+         }
+
+         &__text {
+             padding-left: 40px;
+             text-align: right;
+             margin: auto 0;
+             text-overflow: ellipsis;
+             overflow: hidden;
+             max-height: 10em;
+         }
+
+         &__link {
+
+             &:hover {
+                 transform: translateY(-10%);
+             }
+
+             &--first {
+                 height: 70px;
+                 width: 70px;
+                 left: 0;
+                 top: 12px;
+             }
+
+             &--second {
+                 height: 70px;
+                 width: 70px;
+                 left: 0;
+                 top: 0;
+             }
+
+             &--third {
+                 height: 70px;
+                 width: 70px;
+                 left: 0;
+                 top: 0;
+             }
+
+             &--four {
+                 height: 70px;
+                 width: 70px;
+                 left: 0;
+                 top: 12px;
+             }
+         }
+     }
+
+     .popup-form {
+
+         &__wrapper {
+             padding: 55px 0;
+         }
+
+         &__inner {
+             padding-top: 50px;
+         }
+
+         &__content {
+             padding: 20px 10px;
+         }
+
+         &__close {
+             top: -55px;
+         }
+
+         &__title {
+             font-size: 28px;
+             margin-bottom: 20px;
+         }
+
+
+         &__tab {
+             top: 65px;
+         }
+
+         &__form {
+             &:last-child {
+                 padding-top: 30px;
+             }
+         }
+
+         &__item {
+             &:not(:last-child) {
+                 margin-bottom: 20px;
+             }
+         }
+
+         &__label {
+             top: -13px;
+             font-size: 10px;
+         }
+
+         &__input {
+             max-width: 130px;
+             padding: 8px;
+
+             &--whole {
+                 max-width: 270px;
+             }
+
+             &--half {
+                 margin-right: 10px;
+             }
+         }
+
+         &__label {
+             &--nearby {
+                 left: 140px;
+             }
+         }
+
+         &__link {
+             font-size: 12px;
+             top: -14px;
+             right: 30px;
+         }
+
+         &__btn {
+             padding: 10px 80px;
+         }
+     }
+
+     .donate {
+         padding-top: 50px;
+
+         &__title {
+             font-size: 28px;
+         }
+
+         &__subtitle {
+             font-size: 14px;
+             margin-bottom: 20px;
+         }
+
+         &__btn {
+             & svg {
+                 width: 60px;
+                 height: 60px;
+             }
+
+             &--active::after {
+                 left: 8px;
+                 bottom: -21px;
+             }
+         }
+
+         &__service-btn {
+             width: 115px;
+
+             &--visa {
+                 &::after {
+                     left: 2px;
+                 }
+             }
+
+             &--privatbank {
+                 &::after {
+                     left: 7px;
+                 }
+             }
+
+             &--terminal {
+                 &::after {
+                     left: 50px;
+                 }
+             }
+
+             &--webmoney {
+                 &::after {
+                     left: 9px;
+                 }
+             }
+
+             &--paypal {
+                 &::after {
+                     left: 45px;
+                 }
+             }
+
+             &--bank {
+                 &::after {
+                     left: 43px;
+                 }
+             }
+         }
+
+         &__service-text {
+             font-size: 10px;
+         }
+
+         &__card-form {
+             max-width: 240px;
+             padding: 20px 7px 15px;
+         }
+
+         &__card-number {
+             max-width: 52px;
+             padding: 5px 1px;
+             font-size: 18px;
+         }
+
+         &__exp {
+             max-width: 90px;
+             font-size: 18px;
+         }
+
+         &__cvv {
+             max-width: 90px;
+             font-size: 18px;
+         }
+     }
+
+     .projects {
+
+         &__items {
+             margin-bottom: 30px;
+         }
+
+         &__link {
+             font-size: 20px;
+         }
+
+         &__menu {
+             display: none;
+         }
+     }
+
+     .aid-cards {
+
+         &__link {
+             width: 300px;
+             height: 100px;
+         }
+     }
+
+     .community {
+
+         &__contact {
+             margin-bottom: 30px;
+         }
+
+         &__link {
+             font-size: 30px;
+
+             &:first-child {
+                 margin-bottom: 10px;
+             }
+         }
+
+         &__text {
+             max-width: 300px;
+             font-size: 14px;
+         }
+     }
+
+     .footer {
+         &__btn {
+             top: -55px;
+             height: 45px;
+             width: 45px;
+             &--position{
+                 top: -30px;
+                 left: 20px;
+             }
+         }
+
+         &__link {
+             &--twitter {
+                 top: 1px;
+                 right: -10px;
+             }
+
+             &--facebook {
+                 right: -36px;
+             }
+
+             &--vk {
+                 top: 1px;
+                 right: -78px;
+             }
+         }
+     }
+ }

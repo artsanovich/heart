@@ -55,11 +55,11 @@ $saphire-color: #363B5D;
     visibility: visible;
 }
 
-%hover-accent{
+%hover-accent {
     color: $pink-color;
 }
 
-%hover-transform{
+%hover-transform {
     transform: translateY(-15%);
 }
 
@@ -110,7 +110,7 @@ $saphire-color: #363B5D;
     overflow-y: auto;
     overflow-x: hidden;
     transition: all 0.6s;
-    z-index: 4;
+    z-index: 6;
     @extend %blur-bg;
     @extend %visibility-off;
 
@@ -140,6 +140,7 @@ $saphire-color: #363B5D;
     right: 0;
     @extend %x-mark;
     @extend %bg-icon;
+
     &:focus {
         @extend %focus-accent;
     }
@@ -164,6 +165,7 @@ $saphire-color: #363B5D;
     border: none;
     border-radius: 5px;
     background-color: #F3F7FA;
+    color: $saphire-color;
     transition: background-color 0.3s;
 
     &:hover {
@@ -178,7 +180,7 @@ $saphire-color: #363B5D;
 %methods-label {
     position: absolute;
     top: -20px;
-    left: 5px;
+    left: 10px;
     color: #939AA3;
     @extend %geometria-500;
 }
